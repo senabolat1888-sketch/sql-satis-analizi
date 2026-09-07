@@ -38,7 +38,7 @@ JOIN Urunler u ON s.UrunID = u.UrunID
 GROUP BY m.Sehir
 ORDER BY ToplamHarcama DESC;
 
--- 4) En değerli 10 müşteri (Customer Lifetime Value benzeri analiz)
+-- 4) En değerli 5 müşteri (Customer Lifetime Value benzeri analiz)
 SELECT
     m.AdSoyad,
     m.Sehir,
