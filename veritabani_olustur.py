@@ -42,9 +42,9 @@ CREATE TABLE Siparisler (
 """)
 
 sehirler = ["Bursa", "İstanbul", "Ankara", "İzmir", "Antalya", "Eskişehir"]
-isimler = ["Ahmet Yılmaz", "Ayşe Kaya", "Mehmet Demir", "Zeynep Şahin", "Ali Çelik",
+isimler = ["Ahmet Yılmaz", "Ayşe Kaya", "Hilal Basıc", "Elifnur Kockan", "Ali Çelik",
            "Elif Yıldız", "Can Aydın", "Fatma Arslan", "Emre Koç", "Ece Doğan",
-           "Burak Kurt", "Selin Aksoy", "Kerem Erdem", "Deniz Polat", "Merve Şen"]
+           "Sena Bolat", "Selin Aksoy", "Sema Dağlı", "Deniz Polat", "Merve Şen"]
 
 musteriler = []
 for i in range(1, 51):
@@ -61,7 +61,7 @@ urunler_liste = [
     ("Ofis Sandalyesi", "Mobilya", 2800),
     ("Masa Lambası", "Mobilya", 650),
     ("Spor Ayakkabı", "Giyim", 1800),
-    ("Sırt Çantası", "Aksesuar", 900),
+    ("Sırt Çantası", "Aksesuar", 800),
     ("Bluetooth Hoparlör", "Elektronik", 1100),
     ("Termos", "Aksesuar", 250),
     ("Klavye", "Elektronik", 750),
